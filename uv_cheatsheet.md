@@ -4,18 +4,27 @@
 Replaces: pip, pip-tools, pipx, poetry, pyenv, virtualenv, and more (10-100x faster than pip)
 
 ---
+```
+hello
+```
+
 
 ## Installation
 
 ```bash
 # Linux/macOS
 curl -LsSf https://astral.sh/uv/install.sh | sh
+```
 
 # Windows
+```
 powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
+```
 
 # Update UV
+```
 uv self update
+```
 ```
 
 ---
